@@ -14,6 +14,8 @@
 4. Use `git init` to create a git repo in the current directory. 
 5. If there is a repo that you are already apart of and need to initalize a "pull" then use `git pull https://github.com/user-name/repository.git`
 6. Now since its the first time pulling from this repo, you need a "Personal Access Token".
+7. With access to the repo you must create a remote repo by using `git remote add <name_of_origin> https://github.com/username/repository.git`.
+8. To pull the most up to date files use `git pull <name_of_origin> master`
 
 ### __Getting Access Token__ *Note: you must have your email verified before procceeding*
 1. Go to your GitHub page. 
