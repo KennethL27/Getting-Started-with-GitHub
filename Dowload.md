@@ -10,4 +10,17 @@
 ### *The folowing steps are for setting up your GitHub to git*
 1. In your command line use `git config --global user.username "INSERT USERNAME"`, *Note: this username is the same username you use on GitHub*
 2. To connect your email use `git config --global user.email "INSERT EMAIL"`,  *Note: this email is the same email you use on GitHub*
+3. Make a directory either by creating one with the file explorer or using `mkdir <file_name>`. Then enter the directory in the command line (`cd <file_name>`).
+4. Use `git init` to create a git repo in the current directory. 
+5. If there is a repo that you are already apart of and need to initalize a "pull" then use `git pull https://github.com/user-name/repository.git`
+6. Now since its the first time pulling from this repo, you need a "Personal Access Token".
 
+### __Getting Access Token__ *Note: you must have your email verified before procceeding*
+1. Go to your GitHub page. 
+2. Click on the drop down bar on your profile and click "Settings"
+3. Now scroll down and on the left side there will be a "Developer settings", click on that.
+4. On the left side click "Personal access tokens".
+4. Now click on the "Generate new token"
+5. Select the options you want the token to have. This can be changed at a later date.
+6. Now click on "Generate token"
+7. Copy the token and paste it into the window from previous section's step 6.
